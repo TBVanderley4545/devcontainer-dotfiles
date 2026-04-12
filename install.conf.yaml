@@ -1,0 +1,17 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ["~"]
+
+- link:
+    ~/.config/nvim: nvim
+    ~/.gitconfig:
+    ~/.ripgreprc:
+    ~/.tmux.conf: tmux
+    ~/.zsh:
+    ~/.zshrc:
+
+- shell:
+    - command: ./nvm-installer
+      stdout: true

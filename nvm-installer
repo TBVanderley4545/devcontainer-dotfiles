@@ -1,0 +1,12 @@
+#!/bin/bash
+nvm_curr_ver=$(curl https://api.github.com/repos/nvm-sh/nvm/releases/latest -s | jq .name -r)
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/$nvm_curr_ver/install.sh | bash
+
+source ~/.nvm/nvm.sh
+
+source ~/.zshrc
+
+nvm install --lts
+
+nvm alias default node
