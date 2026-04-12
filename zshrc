@@ -1,6 +1,9 @@
 # Theme
 source ~/.zsh/themes/agnoster.zsh-theme
 
+# ZSH as shell
+export SHELL=/bin/zsh
+
 # Setup History
 export HISTFILE=~/.zsh_history
 export HISTSIZE=10000
