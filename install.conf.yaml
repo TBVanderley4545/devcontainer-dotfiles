@@ -17,3 +17,5 @@
 - shell:
     - command: ./nvm-installer
       stdout: true
+    - command: ./sdkman-installer
+      stdout: true
