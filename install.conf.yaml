@@ -8,7 +8,6 @@
     ~/.config/nvim:
       path: nvim
       create: true
-    ~/.gitconfig:
     ~/.ripgreprc:
     ~/.tmux.conf: tmux
     ~/.zsh:
